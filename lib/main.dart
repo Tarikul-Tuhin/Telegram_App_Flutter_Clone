@@ -10,8 +10,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Telegram'),
-          backgroundColor: Color(0xff0088cc),
+          title: Text(
+            'Telegram',
+            style: TextStyle(
+              fontSize: 20.5,
+              fontFamily: 'Penta Semi Bold',
+            ),
+          ),
+          backgroundColor: Color(0xff517da3),
           leading: GestureDetector(
             onTap: () {},
             child: Icon(Icons.menu),
@@ -23,7 +29,14 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        backgroundColor: Colors.teal,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print("Clicked!");
+          },
+          backgroundColor: Color(0xff517da3),
+          child: Icon(Icons.edit),
+        ),
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: SingleChildScrollView(
             child: Column(
@@ -46,14 +59,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Tarikul Islam',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Ki koro?',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -61,10 +79,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -85,14 +106,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Flutter',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'How is your learning going on?',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -100,10 +126,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -124,14 +153,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Telegram',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Is it really a Telegram app?',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -139,10 +173,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -163,14 +200,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Spring 16',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Epic!',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -178,10 +220,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -202,14 +247,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Md Monir Haider Helale',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Ki obostha?',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -217,10 +267,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -241,14 +294,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Obayedur Rahman',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Hi RoomMate!!',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -256,10 +314,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -280,14 +341,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Akied Ahmed',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'FarmGate asi',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -295,10 +361,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -319,14 +388,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Puja Ankhi',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'hu',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -334,10 +408,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -358,14 +435,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Tauhidul Islam Titas',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
                           ),
+                          SizedBox(
+                            height: 5.0,
+                          ),
                           Text(
-                            'Ni*ar sathe kotha hoy?',
+                            'Nilar sathe kotha hoy?',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -373,10 +455,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -397,14 +482,19 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Abdullah Noman',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Hi Bondhu!',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
@@ -412,10 +502,13 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 0.2,
-                  child: Divider(
-                    color: Color(0xff0088cc),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
                 Container(
@@ -436,14 +529,113 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Tariq Azan',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
                             ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
                           ),
                           Text(
                             'Hey dude!',
                             style: TextStyle(
-                              fontSize: 20.0,
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(8.0),
+                  color: Colors.white,
+                  child: Row(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 25.0,
+                        backgroundImage: AssetImage('images/Imon.jpg'),
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Text(
+                            'Nur Hossain Imon',
+                            style: TextStyle(
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
+                            ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
+                          ),
+                          Text(
+                            'Oi asos?',
+                            style: TextStyle(
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.only(left: 65.0),
+                  child: SizedBox(
+                    height: 0.2,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(8.0),
+                  color: Colors.white,
+                  child: Row(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 25.0,
+                        backgroundImage: AssetImage('images/Utso.jpg'),
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Text(
+                            'Touhidul Haque Utso',
+                            style: TextStyle(
+                              fontSize: 18.0,
+                              fontFamily: 'Penta Semi Bold',
+                            ),
+                          ),
+                          SizedBox(
+                            height: 5.0,
+                          ),
+                          Text(
+                            'Mama Koi tui? ber hobi?',
+                            style: TextStyle(
+                              fontFamily: 'Penta-Rounded-Regular',
+                              fontSize: 15.0,
+                              color: Colors.grey,
                             ),
                           ),
                         ],
